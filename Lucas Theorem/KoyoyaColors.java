@@ -13,7 +13,6 @@ public class KoyoyaColors {
 				int n = scan.nextInt();
 				total+=n;
 				ways = (ways*lucas(total-1, n-1, 1000000007))%1000000007;
-				
 			}
 			System.out.println(ways);
 		}
